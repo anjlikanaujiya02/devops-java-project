@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  app:
+    image: devops-java-app:latest
+    container_name: devops-java-container
+    ports:
+      - "8081:8080"
